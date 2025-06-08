@@ -23,18 +23,20 @@ The dataset is sourced from **Kaggle** and stored in a **MongoDB** database for 
 
 ### ⚙️ Installation and Setup
 
-1. **Clone the repository**
-*git clone https://github.com/vishwakarma9470/Machine-Learning.git*
-*cd Machine-Learning*
-2. **Create Python Environment**
-*conda create --prefix venv python=3.8 -y*
-*conda activate venv/*
+1. **Clone the repository :**
+- *git clone https://github.com/vishwakarma9470/Machine-Learning.git*
+- *cd Machine-Learning*
+2. **Create Python Environment :**
+- *conda create --prefix venv python=3.8 -y*
+- *conda activate venv/*
 
-3. **Install Dependencies**
-*pip install -r requirements.txt*
+3. **Install Dependencies :**
+- *pip install -r requirements.txt*
 
-4. **Run the Application**
-*python app.py*
+4. **Run the Application :**
+- *python app.py*
+
+---
 
 
 ### 🚀 How to Use 
@@ -42,9 +44,14 @@ The dataset is sourced from **Kaggle** and stored in a **MongoDB** database for 
 - Click on Custom File Predict to use your file or use Default File Predict.
 - The system will return predictions as a JSON-like structure.
 
+
+--- 
+
 ### 🖥️ Output Screenshot
 - Below is an example output after running a wafer prediction:
 ![Screenshot](result.jpg)
+
+---
 
 ### 🏭 Industrial Applications
 - Semiconductor Manufacturing
