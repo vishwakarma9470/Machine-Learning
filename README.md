@@ -1,45 +1,27 @@
-💡 Wafer Fault Detection System
-📑 Project Overview
-In electronics manufacturing, a wafer (also known as a slice or substrate) is a thin layer of semiconductor material like crystalline silicon (c-Si), used as the foundation for building integrated circuits (ICs) and solar cells. These wafers undergo complex microfabrication processes such as doping, ion implantation, etching, thin-film deposition, and photolithographic patterning. After fabrication, the wafers are diced into individual chips and packaged.
+# 💡 Wafer Fault Detection System
 
-This project focuses on automated wafer fault detection using machine learning to identify defective wafers in the manufacturing process. The model processes input data and predicts whether a wafer is faulty (-1) or normal (1).
+### 📑 Project Overview
+In electronics manufacturing, a **wafer** (also known as a slice or substrate) is a thin layer of semiconductor material like crystalline silicon (c-Si), used as the foundation for building integrated circuits (ICs) and solar cells. These wafers undergo complex microfabrication processes such as doping, ion implantation, etching, thin-film deposition, and photolithographic patterning. After fabrication, the wafers are diced into individual chips and packaged.
 
-📂 Dataset
-The dataset used for training and testing is sourced from Kaggle and stored in a MongoDB database for efficient retrieval and scalability.
+This project focuses on **automated wafer fault detection** using machine learning to identify defective wafers in the manufacturing process. The model predicts whether a wafer is faulty (`-1`) or normal (`1`).
 
-🔧 Technologies Used
-Python 3.8
+---
 
-Flask (for web application development)
+### 📂 Dataset
+The dataset is sourced from **Kaggle** and stored in a **MongoDB** database for efficient access and scalability.
 
-Scikit-learn (for building ML models)
+---
 
-MongoDB (for data storage)
+### 🔧 Technologies Used
+- **Python 3.8**
+- **Flask** (Web framework)
+- **Scikit-learn** (Machine learning)
+- **MongoDB** (Database)
+- **HTML/CSS** (Frontend design)
 
-HTML/CSS (for UI)
+---
 
-⚙️ Installation and Setup
-Create Python Environment
+### ⚙️ Installation and Setup
 
-bash
-Copy
-Edit
-conda create --prefix venv python=3.8 -y
-conda activate venv/
-Install Dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Flask Application
-
-bash
-Copy
-Edit
-python app.py
-🖥️ Output Screenshot
-Below is a sample prediction output showing the wafer IDs and their respective prediction results:
-
-🏭 Industrial Applications
-This project is highly applicable in semiconductor and electronics manufacturing, where quick and accurate detection of defective wafers is crucial to maintain product quality and reduce waste.
+1. **Create Python Environment**
+  
